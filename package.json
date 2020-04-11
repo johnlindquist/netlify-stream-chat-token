@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:johnlindquist/netlify-stream-chat-token.git",
   "author": "johnlindquist <johnlindquist@Johns-MacBook-Pro.local>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "stream-chat": "^1.7.2"
+  }
 }

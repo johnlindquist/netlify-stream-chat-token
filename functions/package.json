@@ -1,9 +1,0 @@
-{
-  "name": "functions",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "dependencies": {
-    "stream-chat": "^1.7.2"
-  }
-}
