@@ -10,7 +10,7 @@
     "stream-chat": "^1.7.2"
   },
   "scripts": {
-    "build": "netlify-lambda build",
+    "build": "netlify-lambda build src",
     "postinstall": "netlify-lambda install"
   }
 }
