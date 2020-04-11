@@ -6,6 +6,10 @@
   "author": "johnlindquist <johnlindquist@Johns-MacBook-Pro.local>",
   "license": "MIT",
   "dependencies": {
+    "netlify-lambda": "^1.6.3",
     "stream-chat": "^1.7.2"
+  },
+  "scripts": {
+    "postinstall": "netlify-lambda install"
   }
 }
