@@ -8,8 +8,8 @@ exports.handler = async (event) => {
     }
 
     let params = JSON.parse(event.body)
-
-    let token = client.createToken(params.id)
+    let id = params.id
+    let token = client.createToken(id)
     let headers = {
         'Access-Control-Allow-Origin': '*',
         'Access-Control-Allow-Headers':
@@ -19,7 +19,8 @@ exports.handler = async (event) => {
         headers,
         statusCode: 200,
         body: JSON.stringify({
-            token
+            token,
+            id
         })
     }
 }
